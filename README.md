@@ -1,5 +1,15 @@
 # Postgresql
 
+## Запуск
+
+Запуск через KVM
+./start.sh -p libvirt
+
+Запуск через virtualbox
+./start.sh -p vbox
+
+vagrant up
+
 ## Подключение базы данных к pgadmin:
 
 ```
